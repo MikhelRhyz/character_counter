@@ -1,0 +1,21 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+textarea {
+  resize: none;
+  font-size: 1rem;
+}
+
+#charCount, #charRemaining {
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+#charRemaining.low {
+  color: #dc3545; /* red when near limit */
+}
